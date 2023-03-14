@@ -1,0 +1,46 @@
+.principal{
+background: #ffffff;
+}
+
+h1{
+font-size: 250%;
+}
+
+.titulo-principal{
+   text-align: center;
+
+}
+
+.titulo-secundario{
+   color: ;
+   text-align: center;
+}
+
+#missao{
+	font-style: italic;
+}
+.beneficios{
+	color: black;
+	font-style: italic;
+}
+.titulo3{
+	color: 	#000000;
+}
+body{
+	background: #FFFFFF;
+}
+.itens{
+	font-style: italic;
+}
+.titulo3{
+	background: #CCCCCC
+	padding: 30px;
+}
+ul{
+	display: inline-block;
+	vertical-align: top;
+	width: 20%
+}
+.beneficio{
+	width: 30%
+}
