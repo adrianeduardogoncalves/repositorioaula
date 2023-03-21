@@ -26,11 +26,22 @@
 		<label for="nomesobrenome"> Nome e Sobrenome</label>
 		<input type="text" id="nomesobrenome" class="input-padrao"required></input>
 		<label for="email">"Email </label>
-		<input type="email" id="email" class="input-padrao" required></input>
+		<input type="email" id="email" class="input-padrao" required placeholder=seuemail@dominio.com">
 		<label form="telefone"> Telefone</label>
-		<input type="tel" id="telefone" class="input-padrao" required></input>
+		<input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxxx">
 		<label form="mensagem"> Mensagem</label>
 		<textarea cols="70" rows="10" id="mnsagem" class="input-padrao" required></textarea>
+
+		 
+
+		  <fieldset>
+		 	<legend>Como prefere o nosso contato?</legend>
+		 	<label for="radio-email"> <input type="radio" name="contato" value="email" id="radio-email"> Email</label>
+		 	<label for="radio-whatsapp"> <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> Whatsapp</label>
+		 	<label for="radio-telefone"> <input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone</label>
+		 
+		  </fieldset>
+		
 	</form>
 </main>
 
