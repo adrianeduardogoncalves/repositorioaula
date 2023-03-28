@@ -21,3 +21,58 @@ nav a{
 	font-size: 20px;
 	text-decoration: none;
 }
+form{
+	margin: 40px;
+}
+.input-padrao{
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+main{
+	width: 940px;
+	margin: 0 auto;
+}
+
+form{
+	margin: 40px 0;
+}
+form label, form legend{
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+	
+}
+.checkbox{
+	margin: 20px 0;
+	border-radius: 15px;
+}.enviar{
+	width:60%;
+	padding: 15px 0;
+	background: gray;
+	border-radius: 15px;
+	font-weight: bold;
+	font-size: 14px;
+	border: none;
+	transition: 1s all;
+	cursor: pointer;
+
+}
+.enviar:hover {
+	background: darkorange;
+	transform: scale(1.2);
+}
+
+table{
+	margin: 20px 0 40px;
+}
+thead{
+	background: #555555;
+	color: white;
+	font-weight: bold;
+}
+td, th{
+	border: 1px solid #000000;
+	padding: 8px 15px;
+}
