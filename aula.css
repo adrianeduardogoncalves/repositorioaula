@@ -1,0 +1,27 @@
+
+
+.input{
+	display: block;
+	vertical-align: top;
+	margin: 0 0 10px;
+}
+
+fieldset{
+	display: inline-block;
+	vertical-align: 
+}
+table{
+	margin: 20px 0 40px;
+}
+
+thead{
+	background: #555555;
+	color: white;
+	font-weight: bold;
+
+}
+
+td, th{
+	border: 2px solid #000000;
+	padding: 8px 15px;
+}
